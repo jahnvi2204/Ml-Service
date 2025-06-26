@@ -14,8 +14,7 @@ mkdir codeguard-ai
 cd codeguard-ai
 # Copy detector.py (the enhanced pattern-based version)
 # Copy requirements.txt
-# Copy start.py  
-# Copy build.py
+
 ```
 
 ### 2. **Simple Installation & Run**
@@ -24,8 +23,7 @@ cd codeguard-ai
 # Install dependencies
 pip install -r requirements.txt
 
-# Start the service
-python start.py
+
 ```
 
 **That's it! 🎉** The service will be running on `http://localhost:8000`
@@ -61,9 +59,7 @@ python start.py
 ```
 codeguard-ai/
 ├── detector.py           # Main application (enhanced pattern-based)
-├── requirements.txt      # Dependencies
-├── start.py             # Smart startup script
-├── build.py             # Build and distribution tool
+├── requirements.txt      # Dependencies            
 └── README.md            # This file
 ```
 
